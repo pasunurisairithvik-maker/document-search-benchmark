@@ -1,0 +1,25 @@
+{
+  "metrics": {
+    "keyword": {
+      "queries": 20,
+      "recall_at_1": 0.65,
+      "recall_at_3": 0.9,
+      "mean_reciprocal_rank": 0.7683333333333333
+    },
+    "latent": {
+      "queries": 20,
+      "recall_at_1": 0.6,
+      "recall_at_3": 0.85,
+      "mean_reciprocal_rank": 0.7391666666666666
+    }
+  },
+  "documents": 20,
+  "latent_dimensions": 8,
+  "seed": 42,
+  "limitations": [
+    "20 authored demo documents and 20 authored queries; not independent or representative real-world evaluation.",
+    "One relevant document per query; labels are illustrative.",
+    "Latent semantic analysis is not a pretrained language model; it cannot understand arbitrary unseen vocabulary.",
+    "No claim of statistical significance, novelty, or superiority over production search."
+  ]
+}

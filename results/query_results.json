@@ -1,0 +1,431 @@
+[
+  {
+    "method": "keyword",
+    "query": "forgot password email",
+    "relevant_id": "account-reset",
+    "rank": 1,
+    "top3": [
+      "account-reset",
+      "account-locked"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "login blocked after wrong attempts",
+    "relevant_id": "account-locked",
+    "rank": 1,
+    "top3": [
+      "account-locked",
+      "job-retry",
+      "payment-declined"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "send purchased item back",
+    "relevant_id": "order-return",
+    "rank": 1,
+    "top3": [
+      "order-return"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "when money comes back to my bank",
+    "relevant_id": "order-refund",
+    "rank": 3,
+    "top3": [
+      "payment-declined",
+      "payment-duplicate",
+      "order-refund"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "where is my shipment",
+    "relevant_id": "order-tracking",
+    "rank": 2,
+    "top3": [
+      "order-address",
+      "order-tracking"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "parcel sent to wrong location",
+    "relevant_id": "order-address",
+    "rank": null,
+    "top3": [
+      "order-return"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "charged twice for an order",
+    "relevant_id": "payment-duplicate",
+    "rank": 3,
+    "top3": [
+      "order-tracking",
+      "order-address",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "bank rejected my card",
+    "relevant_id": "payment-declined",
+    "rank": 1,
+    "top3": [
+      "payment-declined",
+      "csv-format",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "receipt with tax details PDF",
+    "relevant_id": "invoice-download",
+    "rank": 1,
+    "top3": [
+      "invoice-download",
+      "subscription-renew",
+      "order-address"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "stop automatic membership payments",
+    "relevant_id": "subscription-cancel",
+    "rank": 2,
+    "top3": [
+      "subscription-renew",
+      "subscription-cancel"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "next subscription charge date",
+    "relevant_id": "subscription-renew",
+    "rank": 1,
+    "top3": [
+      "subscription-renew",
+      "subscription-cancel",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "columns required for product upload",
+    "relevant_id": "csv-format",
+    "rank": 1,
+    "top3": [
+      "csv-format",
+      "privacy-delete",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "same product uploaded again with changed price",
+    "relevant_id": "csv-duplicates",
+    "rank": 2,
+    "top3": [
+      "csv-format",
+      "csv-duplicates",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "HTTP 429 too many requests",
+    "relevant_id": "api-limits",
+    "rank": 1,
+    "top3": [
+      "api-limits",
+      "api-auth"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "expired access token 401",
+    "relevant_id": "api-auth",
+    "rank": 1,
+    "top3": [
+      "api-auth",
+      "job-lease",
+      "subscription-cancel"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "temporary task failure backoff",
+    "relevant_id": "job-retry",
+    "rank": 1,
+    "top3": [
+      "job-retry",
+      "payment-declined",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "worker crashed while processing task",
+    "relevant_id": "job-lease",
+    "rank": 1,
+    "top3": [
+      "job-lease",
+      "order-refund",
+      "job-retry"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "restore copy before changing database",
+    "relevant_id": "data-backup",
+    "rank": 1,
+    "top3": [
+      "data-backup",
+      "data-migration"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "add new column without losing records",
+    "relevant_id": "data-migration",
+    "rank": 5,
+    "top3": [
+      "account-reset",
+      "job-lease",
+      "csv-duplicates"
+    ]
+  },
+  {
+    "method": "keyword",
+    "query": "remove my personal information",
+    "relevant_id": "privacy-delete",
+    "rank": 1,
+    "top3": [
+      "privacy-delete"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "forgot password email",
+    "relevant_id": "account-reset",
+    "rank": 1,
+    "top3": [
+      "account-reset",
+      "account-locked",
+      "job-lease"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "login blocked after wrong attempts",
+    "relevant_id": "account-locked",
+    "rank": 2,
+    "top3": [
+      "job-retry",
+      "account-locked",
+      "payment-declined"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "send purchased item back",
+    "relevant_id": "order-return",
+    "rank": 1,
+    "top3": [
+      "order-return",
+      "order-refund",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "when money comes back to my bank",
+    "relevant_id": "order-refund",
+    "rank": 3,
+    "top3": [
+      "payment-declined",
+      "payment-duplicate",
+      "order-refund"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "where is my shipment",
+    "relevant_id": "order-tracking",
+    "rank": 2,
+    "top3": [
+      "order-address",
+      "order-tracking",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "parcel sent to wrong location",
+    "relevant_id": "order-address",
+    "rank": null,
+    "top3": [
+      "order-return",
+      "order-refund",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "charged twice for an order",
+    "relevant_id": "payment-duplicate",
+    "rank": 4,
+    "top3": [
+      "order-tracking",
+      "order-address",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "bank rejected my card",
+    "relevant_id": "payment-declined",
+    "rank": 1,
+    "top3": [
+      "payment-declined",
+      "payment-duplicate",
+      "job-retry"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "receipt with tax details PDF",
+    "relevant_id": "invoice-download",
+    "rank": 1,
+    "top3": [
+      "invoice-download",
+      "order-tracking",
+      "order-return"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "stop automatic membership payments",
+    "relevant_id": "subscription-cancel",
+    "rank": 1,
+    "top3": [
+      "subscription-cancel",
+      "subscription-renew",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "next subscription charge date",
+    "relevant_id": "subscription-renew",
+    "rank": 1,
+    "top3": [
+      "subscription-renew",
+      "subscription-cancel",
+      "payment-duplicate"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "columns required for product upload",
+    "relevant_id": "csv-format",
+    "rank": 1,
+    "top3": [
+      "csv-format",
+      "csv-duplicates",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "same product uploaded again with changed price",
+    "relevant_id": "csv-duplicates",
+    "rank": 2,
+    "top3": [
+      "csv-format",
+      "csv-duplicates",
+      "invoice-download"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "HTTP 429 too many requests",
+    "relevant_id": "api-limits",
+    "rank": 1,
+    "top3": [
+      "api-limits",
+      "api-auth",
+      "job-lease"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "expired access token 401",
+    "relevant_id": "api-auth",
+    "rank": 1,
+    "top3": [
+      "api-auth",
+      "api-limits",
+      "job-lease"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "temporary task failure backoff",
+    "relevant_id": "job-retry",
+    "rank": 1,
+    "top3": [
+      "job-retry",
+      "payment-declined",
+      "job-lease"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "worker crashed while processing task",
+    "relevant_id": "job-lease",
+    "rank": 2,
+    "top3": [
+      "order-refund",
+      "job-lease",
+      "order-return"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "restore copy before changing database",
+    "relevant_id": "data-backup",
+    "rank": 1,
+    "top3": [
+      "data-backup",
+      "data-migration",
+      "privacy-delete"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "add new column without losing records",
+    "relevant_id": "data-migration",
+    "rank": 5,
+    "top3": [
+      "account-reset",
+      "privacy-delete",
+      "account-locked"
+    ]
+  },
+  {
+    "method": "latent",
+    "query": "remove my personal information",
+    "relevant_id": "privacy-delete",
+    "rank": 1,
+    "top3": [
+      "privacy-delete",
+      "data-migration",
+      "data-backup"
+    ]
+  }
+]

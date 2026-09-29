@@ -1,0 +1,82 @@
+[
+  {
+    "query": "forgot password email",
+    "relevant_id": "account-reset"
+  },
+  {
+    "query": "login blocked after wrong attempts",
+    "relevant_id": "account-locked"
+  },
+  {
+    "query": "send purchased item back",
+    "relevant_id": "order-return"
+  },
+  {
+    "query": "when money comes back to my bank",
+    "relevant_id": "order-refund"
+  },
+  {
+    "query": "where is my shipment",
+    "relevant_id": "order-tracking"
+  },
+  {
+    "query": "parcel sent to wrong location",
+    "relevant_id": "order-address"
+  },
+  {
+    "query": "charged twice for an order",
+    "relevant_id": "payment-duplicate"
+  },
+  {
+    "query": "bank rejected my card",
+    "relevant_id": "payment-declined"
+  },
+  {
+    "query": "receipt with tax details PDF",
+    "relevant_id": "invoice-download"
+  },
+  {
+    "query": "stop automatic membership payments",
+    "relevant_id": "subscription-cancel"
+  },
+  {
+    "query": "next subscription charge date",
+    "relevant_id": "subscription-renew"
+  },
+  {
+    "query": "columns required for product upload",
+    "relevant_id": "csv-format"
+  },
+  {
+    "query": "same product uploaded again with changed price",
+    "relevant_id": "csv-duplicates"
+  },
+  {
+    "query": "HTTP 429 too many requests",
+    "relevant_id": "api-limits"
+  },
+  {
+    "query": "expired access token 401",
+    "relevant_id": "api-auth"
+  },
+  {
+    "query": "temporary task failure backoff",
+    "relevant_id": "job-retry"
+  },
+  {
+    "query": "worker crashed while processing task",
+    "relevant_id": "job-lease"
+  },
+  {
+    "query": "restore copy before changing database",
+    "relevant_id": "data-backup"
+  },
+  {
+    "query": "add new column without losing records",
+    "relevant_id": "data-migration"
+  },
+  {
+    "query": "remove my personal information",
+    "relevant_id": "privacy-delete"
+  }
+]

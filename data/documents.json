@@ -1,0 +1,102 @@
+[
+  {
+    "id": "account-reset",
+    "title": "Reset account password",
+    "text": "If you forgot your password, open account settings and select the reset link. The recovery email lets you choose a new password. Expired reset links require another recovery request. Signing in to your account requires the new password."
+  },
+  {
+    "id": "account-locked",
+    "title": "Unlock an account",
+    "text": "Repeated failed sign in attempts can lock your account temporarily. Wait fifteen minutes and retry login. If the account remains locked, contact support with your username. Never share a password or verification code."
+  },
+  {
+    "id": "order-return",
+    "title": "Return an item",
+    "text": "To return a delivered order, open purchase history and request a return within thirty days. Use the return label on the parcel. The product must meet the return policy and refund eligibility conditions."
+  },
+  {
+    "id": "order-refund",
+    "title": "Refund processing time",
+    "text": "Approved refunds go back to the original payment method. Bank processing usually takes several business days. Check payment history for the refund status. A return may need inspection before the refund is approved."
+  },
+  {
+    "id": "order-tracking",
+    "title": "Track delivery",
+    "text": "Your shipment tracking number appears in order history after dispatch. The delivery page shows courier scans and estimated arrival. If tracking stops updating, contact the carrier or support with the order number."
+  },
+  {
+    "id": "order-address",
+    "title": "Change delivery address",
+    "text": "Before dispatch, edit the shipping address in order details. After shipment has left the warehouse, an address change may be unavailable. Contact support to ask whether the carrier can redirect delivery."
+  },
+  {
+    "id": "payment-duplicate",
+    "title": "Duplicate payment charge",
+    "text": "Two payment charges for one purchase may include a temporary bank authorization. Compare transaction status and amounts. If both charges settle, contact billing support with the order number for duplicate charge investigation."
+  },
+  {
+    "id": "payment-declined",
+    "title": "Declined payment",
+    "text": "A bank can decline a card payment due to limits, insufficient funds, or verification failure. Confirm billing address and contact the card issuer. Avoid submitting many repeated payment attempts."
+  },
+  {
+    "id": "invoice-download",
+    "title": "Download invoice",
+    "text": "Open order history and select the completed purchase to download its invoice. The invoice lists product quantities, prices, tax and billing details. Save the PDF for expense documentation."
+  },
+  {
+    "id": "subscription-cancel",
+    "title": "Cancel subscription",
+    "text": "Open subscription settings and turn off renewal to cancel future subscription charges. Current access lasts until the paid period ends. Cancellation does not automatically refund earlier payments."
+  },
+  {
+    "id": "subscription-renew",
+    "title": "Subscription renewal",
+    "text": "Automatic renewal charges the saved payment method at the end of the subscription period. Update billing details before renewal. View the next charge date in subscription settings."
+  },
+  {
+    "id": "csv-format",
+    "title": "Inventory file format",
+    "text": "Upload a UTF-8 CSV inventory file with product_id, name, price and quantity columns. Missing fields and negative quantities are rejected. Identical product IDs are skipped when every value matches."
+  },
+  {
+    "id": "csv-duplicates",
+    "title": "Duplicate inventory records",
+    "text": "Each product ID uniquely identifies an inventory record. Repeated uploads with identical values skip duplicates. If a duplicate ID has a different price or quantity, reject it rather than overwrite the stored record."
+  },
+  {
+    "id": "api-limits",
+    "title": "API rate limits",
+    "text": "Clients sending too many API requests receive HTTP 429. Wait before retrying and use exponential backoff. Cache repeated responses when appropriate. A request limit protects capacity and does not indicate invalid credentials."
+  },
+  {
+    "id": "api-auth",
+    "title": "API authentication",
+    "text": "An API client sends its access token in an authorization header. Missing or invalid tokens cause HTTP 401. Keep credentials out of URLs and logs. Refresh expired tokens through the authorized authentication flow."
+  },
+  {
+    "id": "job-retry",
+    "title": "Retry failed jobs",
+    "text": "A background job can retry after a temporary failure. Exponential backoff delays repeated attempts. After the configured maximum attempts, the task becomes failed. Permanent input errors should be fixed before resubmission."
+  },
+  {
+    "id": "job-lease",
+    "title": "Recover crashed workers",
+    "text": "Workers claim queued jobs with a time-limited lease. If a worker crashes, an expired lease allows another worker to claim the task. A claim token prevents an old worker from overwriting the new result."
+  },
+  {
+    "id": "data-backup",
+    "title": "Database backup",
+    "text": "Create a database backup before migration. Verify restoration in a separate test environment. Store backup copies securely and record retention periods. A backup is useful only if restoring it succeeds."
+  },
+  {
+    "id": "data-migration",
+    "title": "Schema migration",
+    "text": "A database migration changes table structure or indexes. Test the migration with representative records before deploying. Plan rollback and preserve existing data. Version the schema changes alongside application code."
+  },
+  {
+    "id": "privacy-delete",
+    "title": "Delete personal data",
+    "text": "A user can request deletion of personal information through privacy settings. Verify identity using the authorized process. Some records may have legally required retention. Explain the deletion scope before removing data."
+  }
+]
