@@ -1,4 +1,6 @@
 # Document Search Benchmark
+
+Release 1.0 within its documented scope. See [release and operating notes](RELEASE.md).
 A small Python document-search application comparing lexical TF-IDF with latent semantic analysis (LSA). The browser shows both rankings side by side. An evaluation script reports Recall@1, Recall@3, mean reciprocal rank, and per-query results, including failures.
 
 ## Run: Python 3.11+
