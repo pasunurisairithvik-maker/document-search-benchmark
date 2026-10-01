@@ -24,4 +24,4 @@ Run `python -m unittest discover -s tests -v`. Read results/REPORT.md, metrics.j
 Local learning demo; no authentication, persistence for uploaded documents, multilingual evaluation, or production-scale search. Sample corpus and labels were authored with AI assistance for this project. They are fictional and should not be treated as operational, financial, privacy or security advice. No research novelty is claimed.
 
 Implementation references: https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction and https://scikit-learn.org/stable/modules/decomposition.html#truncated-singular-value-decomposition-and-latent-semantic-analysis
-Read STUDENT_GUIDE.md and contribute an independently understood improvement before describing your own project work.
+See STUDENT_GUIDE.md for the implementation walkthrough and evaluation extension points.
